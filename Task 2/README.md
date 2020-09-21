@@ -10,5 +10,5 @@ epochs - кол-во эпох, batch_size - кол-во сэмплов в бат
 Обученную модель можно скачать, по ссылке https://drive.google.com/file/d/1mbuQ_G2FKSwR9ON96Sxp8jX9yzZdW24N/view?usp=sharing <br/>
 Для скрипта classify.py нужно передать в аргументах директорию файла с моделью и путь к папке. Функция сохранит json файл в той же директории, где и она сама.
 
-Запуск тренировки просто, подразумевает вызов функции train_classifier(img_dir, epochs, batch_size, num_classes = 2, fast_train=False)
+Запуск тренировки просто подразумевает вызов функции train_classifier(img_dir, epochs, batch_size, num_classes = 2, fast_train=False)
 
