@@ -2,6 +2,7 @@
 4: Подготовка данных. Я использовал ImagdeDataGenerator для аугментации, и функцию efficient_net.preprocess_input для преобразования картинки. <br/>
 Обучающую выборку поделил на 80% обучающей и 20% валидационной. Все фотографии приводил к (260, 260, 3) размеру. Архитектуру использовал EfficientNetB2 так, как <br/>
 это SOTA архитектура, у нее высокая точность и мало параметров. EfficientNet в своей реализации использует MobileNet блоки. Имплементация MobileNet_v3 есть у меня  на github <br/>
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fqubvel%2Fefficientnet&psig=AOvVaw0zuiHh4RaKz5CzhFIh2nPy&ust=1600804831639000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCrx_KE--sCFQAAAAAdAAAAABAD)
 https://arxiv.org/abs/1905.11946  <br/>
 Функция train_classifier(img_dir, epochs, batch_size, num_classes = 2, fast_train=False) принимает директорию, где лежат фотографии разбитые по папкам (классам), <br/>
 epochs - кол-во эпох, batch_size - кол-во сэмплов в батче, num_classes - кол-во классов. fasr_train, если True, то очень быстро обучится (для тестирования функции). <br/>
