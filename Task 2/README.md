@@ -5,4 +5,5 @@
 https://arxiv.org/abs/1905.11946  <br/>
 Функция train_classifier(img_dir, epochs, batch_size, num_classes = 2, fast_train=False) примает директорию, где лежат фотографии разбитые по папкам (классам), <br/>
 epochs - кол-во эпох, batch_size - кол-фо сэмплов в батче, num_classes - кол-во классов. fasr_train, если True, то очень быстро обучится (для тестирования функции). <br/>
+Обученную модель можно скачать, по ссылке https://drive.google.com/file/d/1mbuQ_G2FKSwR9ON96Sxp8jX9yzZdW24N/view?usp=sharing <br/>
 Для скрипта classify.py нужно передать в аргументах директорию файла с моделью и путь к папке. Функция
