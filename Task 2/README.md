@@ -11,5 +11,6 @@ epochs - кол-во эпох, batch_size - кол-во сэмплов в бат
 Перед тем как запустистить скрипт, нужно скачать обученную модель по ссылке https://drive.google.com/file/d/1mbuQ_G2FKSwR9ON96Sxp8jX9yzZdW24N/view?usp=sharing <br/>
 Функция считает все файлы (не директории) и подразумевает, что все файлы хранятся с расширением jpg. <br/>
 
-Запуск тренировки просто подразумевает вызов функции train_classifier(img_dir, epochs, batch_size, num_classes = 2, fast_train=False). Сохранит наилучшую модель в той же директории под названием "final_model.hdf5"
+Запуск тренировки просто подразумевает вызов функции train_classifier(img_dir, epochs, batch_size, num_classes = 2, fast_train=False). Сохранит наилучшую модель в той же директории под названием "final_model.hdf5" <br/>
 
+В ntech_task2.ipynb функция classify вызывается для тестирования (сохраняет результат для 213 картинок из обучающей выборки)
